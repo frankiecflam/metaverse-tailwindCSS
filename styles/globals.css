@@ -26,4 +26,8 @@
   .btn-menu::after {
     @apply translate-y-[8px] scale-x-[40%];
   }
+
+  .section-heading {
+    @apply text-[#c7c7c7] leading-5 text-center tracking-tight py-8;
+  }
 }
