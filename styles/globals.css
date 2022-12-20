@@ -8,3 +8,22 @@
     color: #fff;
   }
 }
+
+@layer components {
+  .btn-menu {
+    @apply relative z-50 bg-white w-6 h-1;
+  }
+
+  .btn-menu::before,
+  .btn-menu::after {
+    @apply content-[''] absolute top-0 left-0  w-full h-full bg-inherit origin-right;
+  }
+
+  .btn-menu::before {
+    @apply -translate-y-[8px] scale-x-[70%];
+  }
+
+  .btn-menu::after {
+    @apply translate-y-[8px] scale-x-[40%];
+  }
+}

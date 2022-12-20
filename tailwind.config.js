@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        bg: "#1a232e",
+      },
       fontFamily: {
         sans: ["Eudoxus Sans", ...defaultTheme.fontFamily.sans],
       },
