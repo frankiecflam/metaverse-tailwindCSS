@@ -7,6 +7,11 @@
     background-color: #1a232e;
     color: #fff;
   }
+
+  main {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
 }
 
 @layer components {
@@ -27,7 +32,11 @@
     @apply translate-y-[8px] scale-x-[40%];
   }
 
+  .section {
+    @apply p-12;
+  }
+
   .section-heading {
-    @apply text-[#c7c7c7] leading-5 text-center tracking-tight py-8;
+    @apply text-[#c7c7c7] leading-5 text-center tracking-tight py-8 capitalize;
   }
 }
