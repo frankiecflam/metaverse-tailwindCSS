@@ -14,6 +14,8 @@ module.exports = {
       },
       colors: {
         bg: "#1a232e",
+        primary: "#fff",
+        secondary: "#c7c7c7",
       },
       fontFamily: {
         sans: ["Eudoxus Sans", ...defaultTheme.fontFamily.sans],
