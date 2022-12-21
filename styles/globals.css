@@ -39,4 +39,8 @@
   .section-heading {
     @apply text-[#c7c7c7] leading-5 text-center tracking-tight py-8 capitalize;
   }
+
+  .section-subHeading {
+    @apply font-bold text-[32px] leading-[40.32px] sm:text-[48px] lg:text-[64px] sm:leading-[80.64px] tracking-tight text-center;
+  }
 }
