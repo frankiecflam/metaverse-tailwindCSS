@@ -4,8 +4,7 @@
 
 @layer base {
   body {
-    background-color: #1a232e;
-    color: #fff;
+    @apply text-primary bg-bg;
   }
 
   main {
@@ -37,7 +36,7 @@
   }
 
   .section-heading {
-    @apply text-[#c7c7c7] leading-5 text-center tracking-tight py-8 capitalize;
+    @apply text-secondary leading-5 text-center tracking-tight py-8 capitalize;
   }
 
   .section-subHeading {
