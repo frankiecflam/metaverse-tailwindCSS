@@ -22,7 +22,7 @@ const Hero = () => {
           <Image
             src={HeroStampImage}
             alt="image of the Metaverse's stamp"
-            className="absolute bottom-0 right-4 w-[100px] h-[100px]"
+            className="absolute bottom-0 right-4 w-[100px] h-[100px] -z-50"
           />
         </div>
       </div>
