@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="p-12 relative" id="about">
+    <section className="section relative" id="about">
       <h1 className="section-heading">| About Metaverus</h1>
       <p className="text-[24px] md:text-[36px] text-[#c7c7c7] font-medium text-center leading-[180%]">
         <span className="text-white text-3xl font-extrabold">Metaverse</span> is

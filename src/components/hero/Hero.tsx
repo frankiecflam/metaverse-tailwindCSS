@@ -3,7 +3,7 @@ import { HeroCoverImage, HeroStampImage } from "../../assets/images";
 
 const Hero = () => {
   return (
-    <section className="p-12" id="home">
+    <section className="section" id="home">
       <h1 className="uppercase text-4xl  sm:text-6xl lg:text-7xl xl:text-9xl xl:leading-[158.4px] font-bold text-center tracking-tight">
         metaverse <br />
         <div>
