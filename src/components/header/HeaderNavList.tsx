@@ -24,11 +24,11 @@ const HeaderNavList = () => {
   return (
     <div className="z-50">
       <button
-        className="btn-menu"
+        className="btn-menu z-50"
         onClick={() => setShowNavList((prevState) => !prevState)}
       />
       <ul
-        className={`fixed top-0 right-0 py-24 h-screen w-[90%] sm:w-[50%] lg:w-[40%] bg-[#253242] flex flex-col items-center gap-y-12 origin-right duration-500 overflow-y-scroll z-50 ${
+        className={`fixed top-0 right-0 py-24 h-screen w-[90%] sm:w-[50%] lg:w-[40%] bg-[#253242] flex flex-col items-center gap-y-12 origin-right duration-500 overflow-y-scroll z-10 ${
           showNavList ? "scale-x-100" : "scale-x-0"
         }`}
         onClick={() => setShowNavList(false)}
