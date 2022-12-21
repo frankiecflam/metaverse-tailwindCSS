@@ -13,3 +13,5 @@ export { default as Planet04Image } from "./planet-04.png";
 export { default as Planet05Image } from "./planet-05.png";
 export { default as HeadsetIcon } from "./headset.svg";
 export { default as GetStartedImage } from "./get-started.png";
+export { default as UpdatesImage } from "./whats-new.png";
+export { default as VrpanoIcon } from "./vrpano.svg";
