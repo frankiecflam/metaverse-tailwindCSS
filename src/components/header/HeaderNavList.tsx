@@ -20,7 +20,7 @@ const HeaderNavList = () => {
   const [showNavList, setShowNavList] = useState(false);
 
   return (
-    <div>
+    <div className="z-50">
       <button
         className="btn-menu"
         onClick={() => setShowNavList((prevState) => !prevState)}
