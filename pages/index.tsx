@@ -4,6 +4,7 @@ import Hero from "../src/components/hero/Hero";
 import About from "../src/components/about/About";
 import Explore from "../src/components/explore/Explore";
 import GetStarted from "../src/components/getStarted/GetStarted";
+import Updates from "../src/components/updates/Updates";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <About />
         <Explore />
         <GetStarted />
+        <Updates />
       </main>
     </>
   );
