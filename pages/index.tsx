@@ -5,6 +5,7 @@ import About from "../src/components/about/About";
 import Explore from "../src/components/explore/Explore";
 import GetStarted from "../src/components/getStarted/GetStarted";
 import Updates from "../src/components/updates/Updates";
+import People from "../src/components/people/People";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Explore />
         <GetStarted />
         <Updates />
+        <People />
       </main>
     </>
   );

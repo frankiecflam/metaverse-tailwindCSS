@@ -15,3 +15,7 @@ export { default as HeadsetIcon } from "./headset.svg";
 export { default as GetStartedImage } from "./get-started.png";
 export { default as UpdatesImage } from "./whats-new.png";
 export { default as VrpanoIcon } from "./vrpano.svg";
+export { default as PeopleMapImage } from "./map.png";
+export { default as People1Image } from "./people-01.png";
+export { default as People2Image } from "./people-02.png";
+export { default as People3Image } from "./people-03.png";
