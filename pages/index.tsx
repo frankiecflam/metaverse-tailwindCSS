@@ -7,6 +7,7 @@ import GetStarted from "../src/components/getStarted/GetStarted";
 import Updates from "../src/components/updates/Updates";
 import People from "../src/components/people/People";
 import Insights from "../src/components/insights/Insights";
+import FounderMessage from "../src/components/founderMessage/FounderMessage";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <Updates />
         <People />
         <Insights />
+        <FounderMessage />
       </main>
     </>
   );
