@@ -8,6 +8,7 @@ import Updates from "../src/components/updates/Updates";
 import People from "../src/components/people/People";
 import Insights from "../src/components/insights/Insights";
 import FounderMessage from "../src/components/founderMessage/FounderMessage";
+import Footer from "../src/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <People />
         <Insights />
         <FounderMessage />
+        <Footer />
       </main>
     </>
   );
