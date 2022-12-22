@@ -4,7 +4,7 @@ import HeaderNavList from "./HeaderNavList";
 
 const Header = () => {
   return (
-    <header className="relative">
+    <header className="fixed top-0 left-0 right-0 z-40">
       <div className="absolute top-0 left-0 w-1/2 -z-50 bg-universe blur-[125px] h-full" />
       <nav className="w-3/4 py-9 mx-auto flex justify-between items-center">
         <HeaderNavActions />
