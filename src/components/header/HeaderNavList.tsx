@@ -40,7 +40,7 @@ const HeaderNavList = () => {
         <HeaderNavItem href="#updates" sectionName="updates" />
         <HeaderNavItem href="#people" sectionName="people" />
         <HeaderNavItem href="#insights" sectionName="insights" />
-        <HeaderNavItem href="#enter_metaverse" sectionName="enter metaverse" />
+        <HeaderNavItem href="#founder_message" sectionName="founder message" />
         <HeaderSocialList />
       </ul>
       {showNavList &&
