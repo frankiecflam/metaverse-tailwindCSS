@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const People = () => {
   return (
-    <section className="section">
+    <section className="section" id="people">
       <div className="container mx-auto">
         <h1 className="section-heading">| People on the World</h1>
         <p className="section-subHeading">
