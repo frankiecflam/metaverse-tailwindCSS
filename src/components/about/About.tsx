@@ -6,7 +6,7 @@ const About = () => {
     <section className="section relative" id="about">
       <div className="container mx-auto">
         <h1 className="section-heading">| About Metaverus</h1>
-        <p className="text-[24px] md:text-[36px] text-secondary font-medium text-center leading-[180%]">
+        <p className="py-4 text-[24px] md:text-[36px] text-secondary font-medium text-center leading-[180%]">
           <span className="text-primary text-3xl font-extrabold">
             Metaverse
           </span>{" "}
@@ -26,10 +26,10 @@ const About = () => {
         <Image
           src={ArrowIcon}
           alt="down arrow"
-          className="mx-auto mt-16 animate-ping"
+          className="mx-auto mt-16 mb-2 animate-ping"
         />
       </div>
-      <div className="w-[200px] h-[438px] blur-[190px] bg-[#7aebfb] absolute top-0 right-0 -z-50" />
+      <div className="w-[200px] h-[800px] blur-[190px] bg-[#7aebfb] absolute top-[0%] left-1/2 -z-50 rotate-45" />
     </section>
   );
 };
