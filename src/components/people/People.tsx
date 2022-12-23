@@ -29,7 +29,7 @@ const People = () => {
           <div className="rounded-full bg-[#5D6680] w-[35px] h-[35px] md:w-[70px] md:h-[70px] p-2 absolute top-1/2 left-[45%]">
             <Image src={People3Image} alt="Image of customer group 3" />
           </div>
-          <div className="absolute bg-[#4298E8] w-full h-[1236.81px] blur-[125px] -rotate-[114.2deg] -z-50 -top-[50%] lg:top-[40%] -left-[20%] lg:left-0" />
+          <div className="absolute bg-[#4298E8] w-[304px] h-[800px] blur-[200px] -rotate-[114.2deg] -z-50 -top-[100%] left-[0%] lg:-top-[50%] lg:left-[30%]" />
         </div>
       </div>
     </section>
