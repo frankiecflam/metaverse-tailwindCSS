@@ -5,7 +5,7 @@ const HeaderNavBrand = () => {
     <div>
       <Link href="/">
         <h2 className="uppercase font-extrabold text-2xl leading-[30.24px]">
-          metaverse
+          Metaversus
         </h2>
       </Link>
     </div>
