@@ -29,7 +29,7 @@ const About = () => {
           className="mx-auto mt-16 animate-ping"
         />
       </div>
-      <div className="w-[200px] h-[438px] blur-[190px] bg-[#7aebfb] absolute top-0 right-0 -z-50" />
+      <div className="w-[200px] h-[800px] blur-[190px] bg-[#7aebfb] absolute top-[0%] left-1/2 -z-50 rotate-45" />
     </section>
   );
 };
